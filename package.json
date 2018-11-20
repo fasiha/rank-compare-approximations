@@ -1,14 +1,22 @@
 {
   "name": "rank-compare-approximations",
   "version": "1.0.0",
-  "description": "",
+  "description": "Compare two functions with respect to their ranking/sorting accuracy on an input set",
   "main": "index.js",
   "scripts": {
     "test": "tape tests.js"
   },
-  "keywords": [],
+  "keywords": [
+    "sort distance",
+    "rank distance",
+    "poset"
+  ],
   "author": "Ahmed Fasih",
   "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fasiha/rank-compare-approximations.git"
+  },
   "devDependencies": {
     "tape": "^4.9.1"
   }
